@@ -1,0 +1,40 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #E4EDF2;
+  color: #243B53;
+}
+header, .hero, .prints, .planos, footer {
+  padding: 20px;
+  text-align: center;
+}
+.hero img {
+  max-width: 300px;
+  border-radius: 12px;
+}
+.prints img {
+  width: 45%;
+  margin: 10px;
+}
+.planos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+.destaque {
+  background: #F5C36B;
+}
+footer {
+  background: #243B53;
+  color: white;
+  padding: 10px;
+}
